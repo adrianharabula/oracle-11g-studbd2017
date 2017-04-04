@@ -20,8 +20,14 @@ This image is built from [wnameless/oracle-xe-11g](https://hub.docker.com/r/wnam
 This script creates user student and populates database according to instructions in [lab1](http://profs.info.uaic.ro/~vcosmin/pagini/resurse_bd/laborator_psgbd_2017/laborator1.pdf).
 
 # Warning
-The image is quite large to download, around 4GB. So in order to make it smaller, clone this repo, open a terminal in current folder and run `docker build . -t adrianharabula/oracle-11g-studbd2017`.
+The image is quite large to download, around 4GB. So in order to make it smaller use this:
 
-This will run the database script on your computer and needs just 700MB of Internet. It will spike your CPU on first build, and will take about 1-2 minutes to build from scratch.
+```
+git clone https://github.com/adrianharabula/oracle-11g-studbd2017.git
+cd oracle-11g-studbd2017
+docker build . -t adrianharabula/oracle-11g-studbd2017
+```
+
+This will run the database import script on your computer and needs just 700MB of Internet. It will spike your CPU on build, and will take about 1-2 minutes.
 
 Happy Oracle-ing!
