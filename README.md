@@ -20,7 +20,7 @@ This image is built from [wnameless/oracle-xe-11g](https://hub.docker.com/r/wnam
 This script creates user student and populates database according to instructions in [lab1](http://profs.info.uaic.ro/~vcosmin/pagini/resurse_bd/laborator_psgbd_2017/laborator1.pdf).
 
 # Warning
-The image is quite large to download, around 4GB. So in order to make it smaller use this:
+To build the image on your computer enter in a terminal:
 
 ```
 git clone https://github.com/adrianharabula/oracle-11g-studbd2017.git
