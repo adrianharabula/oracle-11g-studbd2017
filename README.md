@@ -9,10 +9,7 @@ Follow these links for installation instructions:
  * for [Windows](https://www.youtube.com/watch?v=S7NVloq0EBc)
  * for [Mac](https://www.youtube.com/watch?v=lNkVxDSRo7M)
  * for [Ubuntu](https://www.youtube.com/watch?v=V9AKvZZCWLc)
-
-## Additional links for installation
- * link to Docker [official install guides](https://docs.docker.com/engine/installation/)
- * [written tutorial](https://www.docker.com/products/docker-toolbox) for Windows & Mac
+ * for other platforms, follow [official Docker install guides](https://docs.docker.com/engine/installation/)
  
 
 # How to run
