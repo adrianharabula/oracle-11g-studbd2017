@@ -1,10 +1,12 @@
-# Oracle 11g preconfigured for psgbd course@infoiasi
-Oracle 11g with Database Imported from http://profs.info.uaic.ro/~vcosmin/pagini/resurse_bd/dump2017/bd.zip
+# Oracle 11g preconfigured for [psgbd](https://profs.info.uaic.ro/~vcosmin/bd) course@infoiasi
+Database Imported from http://profs.info.uaic.ro/~vcosmin/pagini/resurse_bd/dump2017/bd.zip
 
 # How to run
 In a terminal run
 `docker run --name oracle-studbd -d -p 49160:22 -p 49161:1521 adrianharabula/oracle-11g-studbd2017`
+
 Then, open Oracle SQL Developer and connect with the following credentials:
+
 ```
 username: student
 password: STUDENT
