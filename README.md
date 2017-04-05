@@ -15,11 +15,15 @@ Follow these links for installation instructions:
 
 # How to run
 In a terminal run:  
-`docker run --name oracle-studbd -d -p 49160:22 -p 49161:1521 adrianharabula/oracle-11g-studbd2017`
+```
+docker run --name oracle-studbd -d -p 49160:22 -p 49161:1521 adrianharabula/oracle-11g-studbd2017
+```
 This creates a local container on your pc from the Docker image.
 
 Run the container with:
-`docker run oracle-studbd`
+```
+docker run oracle-studbd
+```
 
 To remove container, discard database changes and start with a freshly imported dump run:
 ```
