@@ -1,5 +1,5 @@
 # Oracle 11g preconfigured for [psgbd](https://profs.info.uaic.ro/~vcosmin/bd) course@infoiasi
-Database Imported from http://profs.info.uaic.ro/~vcosmin/pagini/resurse_bd/dump2017/bd.zip
+This script creates user student and populates database according to instructions in [lab1](http://profs.info.uaic.ro/~vcosmin/pagini/resurse_bd/laborator_psgbd_2017/laborator1.pdf).
 
 # To install Docker (needed only first time)
 I offer free support for installation problems. Write at adrian.harabula@gmail.com, describe your problem and I'll help you fix it. Also you can ask me on [FB](https://fb.com/adrian.harabula.32) or Skype _adrian.harabula_.
@@ -47,7 +47,5 @@ port: 49161
 
 # More info
 This image is built from [wnameless/oracle-xe-11g](https://hub.docker.com/r/wnameless/oracle-xe-11g/), please review that page for more info about the oracle image itself.
-
-This script creates user student and populates database according to instructions in [lab1](http://profs.info.uaic.ro/~vcosmin/pagini/resurse_bd/laborator_psgbd_2017/laborator1.pdf).
 
 Happy Oracle-ing!
