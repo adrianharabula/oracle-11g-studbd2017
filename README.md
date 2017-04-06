@@ -29,7 +29,7 @@ To remove container, discard database changes and start with a freshly imported 
 ```
 docker stop oracle-studbd
 docker rm oracle-studbd
-docker run --name oracle-studbd -d p- 49160:22 -p 49161:1521 adrianharabula/oracle-11g-studbd2017
+docker run --name oracle-studbd -d -p 49160:22 -p 49161:1521 adrianharabula/oracle-11g-studbd2017
 ```
 
 # Using sqlplus
